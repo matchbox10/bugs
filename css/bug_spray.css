@@ -1,0 +1,186 @@
+/* CSS Document */
+
+
+#bg-img {
+	position:absolute;
+	z-index:-1;
+	width:100%;
+}
+
+p.instructions {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:center;
+	color:#999;
+	display:block;
+	padding: 4px 10px;
+	border:solid 1px #333;
+	width:60%;
+	background-color:#EBEBEB;
+	margin:8px auto;
+}
+
+h1.title {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:35px;
+	text-align:center;
+	color:#39F;
+	display:block;
+	background:#F0F0F0;
+	padding:5px 30px;
+	border:solid 7px #999;
+	margin: 18px auto 20px;
+	width:60%;
+}
+
+#bug-wrapper .game-area {
+	width:80%;
+	height:500px;
+	border:solid 15px #FFF;
+	margin:6px auto 30px;
+	background:#CCC;
+	overflow:hidden;
+	position:relative;
+		
+}
+	
+
+
+#bug-wrapper div.menu {
+	width:60%;
+	margin:6px auto 0px;
+	position:relative;
+	height: 41px;
+}
+
+#bug-wrapper .menu ul li {
+	display:inline-block;
+	width:20%;
+	margin:0 6px;
+}
+
+#bug-wrapper .menu ul li a {
+	display:block;
+	width:100%;
+	text-decoration:none;
+	background-color:#FFF;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#006;
+	padding:3px 0;
+	-webkit-box-shadow: 0px 5px 28px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    0px 5px 28px rgba(50, 50, 50, 1);
+	box-shadow:         0px 5px 28px rgba(50, 50, 50, 1);
+	border:solid 3px #FFF;
+
+}
+
+#bug-wrapper .menu ul li a:hover {
+	background-image:url('../images/bg.jpg');
+	color:#0F6;
+}
+
+#bug-wrapper .menu ul {
+	width:100%;
+	display:block;
+	text-align:center;
+	padding:0;
+	margin:0px;
+}
+
+#bug-wrapper .menu .timer {
+	position:absolute;
+	right:-110px;
+	top:13px;
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+	border:solid 3px #9F6;
+	z-index:100000;
+	background:#FFF;
+	padding:8px 15px;
+}
+
+#bug-wrapper .menu .score {
+	position:absolute;
+	left:-110px;
+	top:13px;
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+	border:solid 3px #9F6;
+	z-index:100000;
+	background:#FFF;
+	padding:8px 15px;
+}
+
+
+#bug-wrapper .bug-shadow {
+	-webkit-box-shadow: 0px 5px 28px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    0px 5px 28px rgba(50, 50, 50, 1);
+	box-shadow:         0px 5px 28px rgba(50, 50, 50, 1);
+}
+
+#bug-wrapper .scenario > img {
+	width:100%;
+	position:absolute;
+	top:-10px;
+	min-width:800px;
+}
+
+
+
+#bug-wrapper .timer-cover {
+	background:#FFF;
+	z-index:100001;
+	width:80%;
+	height:15px;
+	position:absolute;
+	margin:15px 20%;
+	top: 155px;
+}
+
+#bug-wrapper .game-area .game-menu {
+	margin: 76px auto 20px;
+	width: 80%;
+	z-index: 1000002;
+	position: relative;
+}
+
+#bug-wrapper .game-area .game-end, #bug-wrapper .game-area .game-win {
+	display:none;
+	margin: 76px auto 20px;
+	width: 80%;
+	height:300px;
+	z-index: 1000002;
+	position: relative;
+	background-color:#FFF;
+	border:solid 9px #CCC;
+	text-align: center;
+	padding:30px;
+}
+
+
+
+#bug-wrapper .game-area .game-end p {
+	font-size:18px;
+}
+
+#bug-wrapper .game-area .game-menu .bugs {
+	width:32%;
+}
+
+#bug-wrapper .game-area .game-menu .start-button {
+	display:block;
+	width:100%;
+	text-align:center;
+	margin-top:20px;
+}
+
+#bug-wrapper .game-area .game-main {
+	width: 100%;
+	z-index: 1000002;
+	position: relative;
+}
